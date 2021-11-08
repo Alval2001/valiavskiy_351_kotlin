@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_lab3">
+
+
+
+    <fragment
+        android:id="@+id/navigation_lab4"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab4.Lab4Fragment"
+        android:label="lab4"
+        tools:layout="@layout/fragment_lab4" />
+    <fragment
+        android:id="@+id/navigation_lab3"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab3.Lab3Fragment"
+        android:label="lab3"
+        tools:layout="@layout/fragment_lab3" />
+    <fragment
+        android:id="@+id/navigation_lab5"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab5.Lab5Fragment"
+        android:label="lab3"
+        tools:layout="@layout/fragment_lab5" />
+    <fragment
+        android:id="@+id/navigation_lab6"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab6.Lab6Fragment"
+        android:label="lab3"
+        tools:layout="@layout/fragment_lab6" />
+    <fragment
+        android:id="@+id/navigation_lab7"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab7.Lab7Fragment"
+        android:label="lab3"
+        tools:layout="@layout/fragment_lab7" />
+    <fragment
+        android:id="@+id/navigation_lab8"
+        android:name="com.example.Valiavskiy_191_351.ui.Lab8.Lab8Fragment"
+        android:label="lab3"
+        tools:layout="@layout/fragment_lab8" />
+</navigation>
